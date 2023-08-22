@@ -1,0 +1,40 @@
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: aliceblue;
+    }
+    .game-container {
+      width: 400px;
+      margin: 100px auto;
+      padding: 20px;
+      border: 2px solid #333;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      background: linear-gradient(to right, rgb(248, 55, 215),rgb(126, 213, 245));
+    }
+    h1 {
+        color: aliceblue;
+    }
+    .guess-input {
+      width: 200px;
+      height: 30px;
+      font-size: 16px;
+      padding: 5px;
+      border-radius: 11px;
+    }
+    .result-message {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .play-again {
+      margin-top: 20px;
+      display: none;
+      width: 77px;
+      height: 35px;
+    }
+    button{
+        width: 77px;
+        height: 31px;
+        border-radius: 11px;
+    }
